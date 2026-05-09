@@ -14,11 +14,11 @@ That will be the goal of this mod, which will be called `Very Rigid Table Manner
 
 ### Acknowledgements
 
-This walkthrough uses screenshots of Cataclysm: Dark Days Ahead, text from its JSON API, and excerpts from its documentation. All of those sources are created and maintained by [CleverRaven](https://github.com/CleverRaven) and [the CDDA contributors](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors). The full authorship for the documentation excerpts can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/commits/master/doc/JSON/EFFECT_ON_CONDITION.md). The tiles visible in the screenshots are developed in the [CDDA Tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets) by their [contributors](https://github.com/I-am-Erk/CDDA-Tilesets/graphs/contributors). Finally, the walkthrough also uses screenshots of the [Hitchiker's Guide to the Cataclysm](https://cdda-guide.nornagon.net), which is developed by nornagon.
+This walkthrough uses screenshots of Cataclysm: Dark Days Ahead, text from its JSON API, and excerpts from its documentation. All of those sources are created and maintained by [CleverRaven](https://github.com/CleverRaven) and [the CDDA contributors](https://github.com/CleverRaven/Cataclysm-DDA/graphs/contributors). The full authorship for the documentation excerpts can be found [here](https://github.com/CleverRaven/Cataclysm-DDA/commits/master/doc/JSON/EFFECT_ON_CONDITION.md). The tiles visible in the screenshots are developed in the [CDDA Tileset repository](https://github.com/I-am-Erk/CDDA-Tilesets) by their [contributors](https://github.com/I-am-Erk/CDDA-Tilesets/graphs/contributors). Finally, the walkthrough also uses screenshots of the [Hitchhiker's Guide to the Cataclysm](https://cdda-guide.nornagon.net), which is developed by nornagon.
 
 ### Step 1: The modfile
 
-The first step in making our vomit mod is creating the modfile. This is a simple defintion file, written in [JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json), which the game uses to recognize and categorize all of the other files in the mod. 
+The first step in making our vomit mod is creating the modfile. This is a simple definition file, written in [JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json), which the game uses to recognize and categorize all of the other files in the mod. 
 
 There is an example modfile in [the official modding guide](https://github.com/CleverRaven/Cataclysm-DDA/blob/master/doc/MODDING.md#creating-a-barebones-mod). 
 
@@ -143,7 +143,7 @@ The `u_` here refers to the user, or the player character, and a flag is a speci
 
 If we can find a flag for chairs, then this looks like it will be exactly what we need.
 
-Rather than search in the game files, we can check the [Hitchiker's Guide](https://cdda-guide.nornagon.net/furniture/f_chair) entry for chairs, and check if it has any useful flags.
+Rather than search in the game files, we can check the [Hitchhiker's Guide](https://cdda-guide.nornagon.net/furniture/f_chair) entry for chairs, and check if it has any useful flags.
 
 <kbd><img src="./resources/14.png" height="300" /></kbd>
 
@@ -207,7 +207,7 @@ First we need to find another flag, this time for table-like furniture.
 
 <kbd><img src="./resources/24.png" height="300" /></kbd>
 
-Here's the Hitchiker's Guide record for tables, and there's a promising flag listed: `FLAT_SURF`, for flat surfaces.
+Here's the Hitchhiker's Guide record for tables, and there's a promising flag listed: `FLAT_SURF`, for flat surfaces.
 
 <kbd><img src="./resources/25.png" height="300" /></kbd>
 
