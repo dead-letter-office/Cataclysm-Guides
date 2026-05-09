@@ -8,7 +8,7 @@ I like to play characters that have the `Rigid Table Manners` trait. This is a r
 
 To me, a small morale penalty doesn't feel very rigid. What if the penalty were worse? 
 
-What if eating anywhere other than a table and chair made the character projectile vomit? That would make it impossible for them to eat without sitting down for a meal.
+What if eating anywhere other than a table and chair made the character projectile vomit?
 
 That will be the goal of this mod, which will be called `Very Rigid Table Manners`.
 
